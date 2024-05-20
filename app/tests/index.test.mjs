@@ -1,7 +1,7 @@
 // Tests for App 
-const { factorial } = require('../../library1/src/index');
-const { isPalindrome } = require('../../library2/src/index');
-const assert = require('chai').assert;
+import { assert } from 'chai';
+import { factorial } from '../../library1/src/index.mjs';
+import { isPalindrome } from '../../library2/src/index.mjs';
 
 describe('App', () => {
     it('should correctly calculate the factorial using Library 1', () => {
