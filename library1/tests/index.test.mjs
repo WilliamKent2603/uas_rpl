@@ -1,5 +1,5 @@
-const { factorial } = require('../src/index');
-const assert = require('chai').assert;
+import { assert } from 'chai';
+import { factorial } from '../src/index.mjs';
 
 describe('Library 1', () => {
     describe('factorial', () => {

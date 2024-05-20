@@ -1,6 +1,6 @@
 // Tests for Library 2 
-const { isPalindrome } = require('../src/index');
-const assert = require('chai').assert;
+import { assert } from 'chai';
+import { isPalindrome } from '../src/index.mjs';
 
 describe('Library 2', () => {
     describe('isPalindrome', () => {
